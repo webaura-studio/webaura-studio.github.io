@@ -30,9 +30,14 @@ Open device-preview.html to view the site inside 320, 390, 430, tablet, and desk
 - assets/: supplied logo and AI-generated cover/service illustrations
 
 ## Run and host
-No build, package installation, or database is needed. Open index.html or use a static web server. GitHub Pages can publish main from the repository root after the redesign branch is reviewed and merged.
+No build, package installation, or database is needed. Open index.html or use a static web server. GitHub Pages publishes the main branch from the repository root.
+
+Live website: https://webaura-studio.github.io/
+Responsive preview: https://webaura-studio.github.io/device-preview.html
 
 ## Validation
 JavaScript syntax, HTML nesting/IDs/anchors/assets, seven descriptions, supplied details and price ranges checked. All 255 nonempty service combinations exercised, including Unicode/emoji message encoding, price units, package choices and conditional controls. Website inputs stay on the page; external services include fonts, map embeds and WhatsApp.
 
-The GitHub redesign remains a review branch. Merging replaces the live homepage while retaining history.
+The approved design replaces the previous homepage while retaining the repository history. Request a quote buttons select the service, display confirmation, and lead directly to the project form.
+
+Technology: HTML, CSS, JavaScript, and Canvas. The website does not collect online payments or store client enquiries; prices are informational and WhatsApp enquiries are sent by the visitor.
