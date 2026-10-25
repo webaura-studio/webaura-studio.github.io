@@ -1,31 +1,38 @@
-# WebAura Studio — Creative redesign
+# WebAura Studio — Mobile-focused redesign
 
-A responsive static agency website for Muhammad Ahmad Raza with restrained red brand accents on white, a dedicated homepage cover, illustrated service posters with independent palettes, a founder profile, animations, and Brand Playground.
+A responsive static professional agency website for Muhammad Ahmad Raza, founder and CEO of WebAura Studio. A mostly white design uses restrained red brand accents, a home cover, service-specific visual posters, colored contact cards, animations, and Brand Playground.
 
-## Project enquiry via WhatsApp
-Clients enter a name, optional business name, selected services, project goal, preferred timeline, and their idea. The form previews a default message and opens WhatsApp at +923136884649 with the full encoded brief. The visitor reviews and sends the message. No message is sent automatically and no enquiry is stored by the website. Empty service selections are validated; a copy-message fallback is included.
+## Seven services and pricing
+All guide prices are displayed in PKR and are subject to an agreed scope.
+- Website design: Essential 20,000–25,000; Professional 30,000–40,000.
+- Google Business Profile & local SEO: 10,000–15,000.
+- AI video: 1,000–2,000 per finished minute.
+- Graphic design: based on post, image, or project.
+- Meta ads: based on campaign plan, with separate ad spend.
+- TikTok ads: based on campaign plan, with separate ad spend.
+- Social media management/posting: 10,000–15,000 per agreed plan. Posting frequency and plan duration are confirmed in the quote.
 
-## Brand Playground
-Choose a business name, type, goal and visual style. See a live concept, download a PNG direction card and transfer the idea and recommended services into the WhatsApp brief. Recommendations use transparent rules, not a trained AI model.
+Every service has an illustrative poster and expandable Learn more description. These are service concepts, not claims of completed client projects or guaranteed outcomes. Domain, hosting, and platform costs are separate unless included explicitly.
 
-## Services
-- Website design
-- Google Business Profile & local SEO
-- AI video creation
-- Graphic design
-- Meta ads
+## WhatsApp project brief
+Clients choose services, enter project details, choose a website package or video duration if relevant, and preview an itemized WhatsApp message. The brief uses emoji headings, whitespace, bullet items, and WhatsApp bold formatting. Actual stickers are not supported in prefilled text links. The visitor reviews and sends the message; this website does not send messages automatically or store enquiries.
 
-Each service has an AI-generated illustrative poster, not a claimed client project. Website imagery uses blue, local SEO uses search-inspired multicolors, AI video uses violet/cyan, graphic design uses a print-inspired palette, and Meta ads uses blue with social gradients.
+## Mobile experience
+Large touch targets, 16px form controls, single-column service cards, an in-section service jump rail, and a fixed bottom action bar. Contact tiles use blue for calls, green for WhatsApp, violet for email, and amber for location. System reduced motion is respected, and decorative animations can be paused.
 
-## Run and publish
-Open index.html or serve the directory with a static server. No build or database is required. GitHub Pages can publish the main branch from the root after the review branch is merged.
+Open device-preview.html to view the site inside 320, 390, 430, tablet, and desktop browser-width frames. This is a responsive browser preview, not a physical device emulator.
 
 ## Files
-- index.html: content, service posters, personal profile, project form, map
-- style.css: responsive layouts, hover states, animations, reduced-motion support
-- app.js: Brand Playground, PNG export, motion controls, WhatsApp brief builder
-- assets/: supplied logo, generated home cover and service-poster images
+- index.html: professional profile, services/pricing, colored contact boxes, brief form and map
+- style.css: responsive styles, service palettes, transitions and accessibility
+- app.js: live brand concept, PNG export, pricing, formatted WhatsApp message and motion controls
+- device-preview.html: responsive review surface
+- assets/: supplied logo and AI-generated cover/service illustrations
 
-The public page includes the supplied business email, phone, address and map coordinates. Fonts and the embedded map use external services. Motion can be paused; system reduced-motion settings are respected.
+## Run and host
+No build, package installation, or database is needed. Open index.html or use a static web server. GitHub Pages can publish main from the repository root after the redesign branch is reviewed and merged.
 
-The GitHub redesign remains on a review branch; merging replaces the homepage while preserving history.
+## Validation
+JavaScript syntax, HTML nesting/IDs/anchors/assets, seven descriptions, supplied details and price ranges checked. All 255 nonempty service combinations exercised, including Unicode/emoji message encoding, price units, package choices and conditional controls. Website inputs stay on the page; external services include fonts, map embeds and WhatsApp.
+
+The GitHub redesign remains a review branch. Merging replaces the live homepage while retaining history.
